@@ -2,7 +2,6 @@ public class Main {
     public static void main(String[] args) {
         ConvertInfixToPostfix convertor = new ConvertInfixToPostfix();
         String infix = InputFromConsole.expressionInput();
-//        String infix = "15/(7-(1+1))*3-(2+(1+1))*15/(7-(200+1))*3-(2+(1+1))*(15/(7-(1+1))*3-(2+(1+1))+15/(7-(1+1))*3-(2+(1+1)))";
         String postfix = convertor.convertInfixToPostfix(infix);
         System.out.println("postfix = " + postfix);
         System.out.print("Notation in postfix form = ");
